@@ -9,12 +9,14 @@ Check back later!
 
 ```c
 // Your C code here
+{% highlight ruby %}
 #include <stdio.h>
 
 int main(void) {
     printf("Hello World\n");
     return 0;
 }
+{% endhighlight %}
 ```
 {% include_relative code.c %}
 
