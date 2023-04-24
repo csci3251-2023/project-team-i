@@ -1,4 +1,3 @@
-{% include code.c %}
 
 # This team hasn't started yet...
 
@@ -9,7 +8,6 @@ Check back later!
 
 
 ```c
-
 // Your C code here
 #include <stdio.h>
 
@@ -18,4 +16,7 @@ int main(void) {
     return 0;
 }
 ```
+{% include_relative code.c %}
+
+
 ![example workflow](https://github.com/csci3251-2023/project-team-i/actions/workflows/c-cpp.yml/badge.svg)
