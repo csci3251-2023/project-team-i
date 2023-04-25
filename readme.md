@@ -6,3 +6,8 @@
 >- **Task 7: Promote the pages and add the link into readme.md**
 # Code
 # Contributors
+
+{% for student in _stu %}
+  - <img src="{{ student.image }}" width="50" height="50"> @{{ student.user }} ({{ student.name }})
+    - {{ student.content | markdownify }}
+{% endfor %}
