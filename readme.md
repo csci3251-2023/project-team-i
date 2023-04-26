@@ -18,3 +18,5 @@
 >- **Task 7: Promote the pages and add the link into readme.md**
 # Code
 # Contributors
+
+Last updated: {{ site.time }}
