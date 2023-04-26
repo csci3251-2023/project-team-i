@@ -19,7 +19,7 @@
 # Code
 # Contributors
 
-{% for student in _stu %}
+{% for student in stu.students %}
   - <img src="{{ student.image }}" width="50" height="50"> @{{ student.user }} ({{ student.name }})
     - {{ student.content | markdownify }}
 {% endfor %}
