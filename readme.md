@@ -6,7 +6,7 @@
 {% include_relative code.c %}
 ```
 
-
+![Screenshot of resultant image](/resultant%20image.png)
 
 ![example workflow](https://github.com/csci3251-2023/project-team-i/actions/workflows/c-cpp.yml/badge.svg)
 =======
