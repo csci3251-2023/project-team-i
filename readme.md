@@ -11,7 +11,7 @@
 ![example workflow](https://github.com/csci3251-2023/project-team-i/actions/workflows/c-cpp.yml/badge.svg)
 # Contributors
 
-{% for student in _stu %}
+{% for student in site.stu %}
   - <img src="{{ student.image }}" width="50" height="50"> @{{ student.user }} ({{ student.name }})
     - {{ student.content | markdownify }}
 {% endfor %}
