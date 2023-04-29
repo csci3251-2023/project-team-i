@@ -8,9 +8,14 @@
 >- **Task 7: Promote the pages and add the link into readme.md**
 
 # Code
+
+
 ```c
+// Your C code here
 {% include_relative code.c %}
 ```
+
+
 ![example workflow](https://github.com/csci3251-2023/project-team-i/actions/workflows/c-cpp.yml/badge.svg)
 # Contributors
 
